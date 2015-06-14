@@ -2,11 +2,11 @@ package com.jlmd.android.newfilmsmvp.di.module;
 
 import com.jlmd.android.newfilmsmvp.api.moviedetails.MovieDetailsApi;
 import com.jlmd.android.newfilmsmvp.api.upcomingmovies.UpcomingMoviesApi;
-import com.jlmd.android.newfilmsmvp.domain.model.Movie;
-import com.jlmd.android.newfilmsmvp.mvp.presenter.MovieDetailsPresenter;
-import com.jlmd.android.newfilmsmvp.mvp.presenter.MovieDetailsPresenterImp;
-import com.jlmd.android.newfilmsmvp.mvp.presenter.MoviesListPresenter;
-import com.jlmd.android.newfilmsmvp.mvp.presenter.MoviesListPresenterImp;
+import com.jlmd.android.newfilmsmvp.api.base.domain.model.Movie;
+import com.jlmd.android.newfilmsmvp.screen.moviedetails.mvp.presenter.MovieDetailsPresenter;
+import com.jlmd.android.newfilmsmvp.screen.moviedetails.mvp.presenter.MovieDetailsPresenterImp;
+import com.jlmd.android.newfilmsmvp.screen.main.mvp.presenter.MoviesListPresenter;
+import com.jlmd.android.newfilmsmvp.screen.main.mvp.presenter.MoviesListPresenterImp;
 import com.squareup.otto.Bus;
 
 import java.util.Comparator;

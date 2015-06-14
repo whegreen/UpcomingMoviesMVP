@@ -1,6 +1,6 @@
 package com.jlmd.android.newfilmsmvp.api.moviedetails;
 
-import com.jlmd.android.newfilmsmvp.domain.model.MovieDetails;
+import com.jlmd.android.newfilmsmvp.api.base.domain.model.MovieDetails;
 
 /**
  * @author jlmd

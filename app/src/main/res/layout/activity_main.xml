@@ -9,6 +9,6 @@
         android:id="@+id/frg_movies_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        class="com.jlmd.android.newfilmsmvp.ui.fragment.MoviesListFragment"/>
+        class="com.jlmd.android.newfilmsmvp.screen.main.ui.fragment.MoviesListFragment"/>
 
 </LinearLayout>

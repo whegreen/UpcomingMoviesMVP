@@ -3,11 +3,11 @@ package com.jlmd.android.newfilmsmvp.di.module;
 import android.content.Context;
 
 import com.google.gson.Gson;
-import com.jlmd.android.newfilmsmvp.api.mapper.Mapper;
-import com.jlmd.android.newfilmsmvp.api.mapper.MovieDetailsMapper;
-import com.jlmd.android.newfilmsmvp.api.mapper.UpcomingMoviesMapper;
-import com.jlmd.android.newfilmsmvp.api.mock.MockedMovieDetailsApi;
-import com.jlmd.android.newfilmsmvp.api.mock.MockedUpcomingMoviesApi;
+import com.jlmd.android.newfilmsmvp.api.base.mapper.Mapper;
+import com.jlmd.android.newfilmsmvp.api.moviedetails.mapper.MovieDetailsMapper;
+import com.jlmd.android.newfilmsmvp.api.upcomingmovies.mapper.UpcomingMoviesMapper;
+import com.jlmd.android.newfilmsmvp.api.moviedetails.mock.MockedMovieDetailsApi;
+import com.jlmd.android.newfilmsmvp.api.upcomingmovies.mock.MockedUpcomingMoviesApi;
 import com.jlmd.android.newfilmsmvp.api.moviedetails.MovieDetailsApi;
 import com.jlmd.android.newfilmsmvp.api.upcomingmovies.UpcomingMoviesApi;
 

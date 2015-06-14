@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.jlmd.android.newfilmsmvp.ui.view.ClickRecyclerView
+    <com.jlmd.android.newfilmsmvp.screen.main.ui.view.ClickRecyclerView
         android:id="@+id/rv_movies_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

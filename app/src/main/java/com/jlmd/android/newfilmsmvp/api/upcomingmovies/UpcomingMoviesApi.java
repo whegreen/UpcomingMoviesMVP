@@ -1,6 +1,6 @@
 package com.jlmd.android.newfilmsmvp.api.upcomingmovies;
 
-import com.jlmd.android.newfilmsmvp.domain.model.Movie;
+import com.jlmd.android.newfilmsmvp.api.base.domain.model.Movie;
 
 import java.util.List;
 

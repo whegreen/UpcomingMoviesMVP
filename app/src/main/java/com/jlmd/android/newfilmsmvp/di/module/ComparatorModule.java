@@ -1,8 +1,8 @@
 package com.jlmd.android.newfilmsmvp.di.module;
 
-import com.jlmd.android.newfilmsmvp.domain.comparator.MovieDateComparator;
-import com.jlmd.android.newfilmsmvp.domain.comparator.MovieTitleComparator;
-import com.jlmd.android.newfilmsmvp.domain.model.Movie;
+import com.jlmd.android.newfilmsmvp.api.base.domain.comparator.MovieDateComparator;
+import com.jlmd.android.newfilmsmvp.api.base.domain.comparator.MovieTitleComparator;
+import com.jlmd.android.newfilmsmvp.api.base.domain.model.Movie;
 
 import java.util.Comparator;
 

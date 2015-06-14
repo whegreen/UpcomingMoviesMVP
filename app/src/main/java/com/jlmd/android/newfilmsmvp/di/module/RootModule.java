@@ -3,11 +3,11 @@ package com.jlmd.android.newfilmsmvp.di.module;
 import android.content.Context;
 
 import com.jlmd.android.newfilmsmvp.di.AppApplication;
-import com.jlmd.android.newfilmsmvp.mvp.presenter.MovieDetailsPresenterImp;
-import com.jlmd.android.newfilmsmvp.mvp.presenter.MoviesListPresenterImp;
-import com.jlmd.android.newfilmsmvp.ui.activity.MainActivity;
-import com.jlmd.android.newfilmsmvp.ui.fragment.MovieDetailsFragment;
-import com.jlmd.android.newfilmsmvp.ui.fragment.MoviesListFragment;
+import com.jlmd.android.newfilmsmvp.screen.moviedetails.mvp.presenter.MovieDetailsPresenterImp;
+import com.jlmd.android.newfilmsmvp.screen.main.mvp.presenter.MoviesListPresenterImp;
+import com.jlmd.android.newfilmsmvp.screen.main.ui.activity.MainActivity;
+import com.jlmd.android.newfilmsmvp.screen.moviedetails.ui.fragment.MovieDetailsFragment;
+import com.jlmd.android.newfilmsmvp.screen.main.ui.fragment.MoviesListFragment;
 import com.squareup.otto.Bus;
 
 import javax.inject.Singleton;
